@@ -1,0 +1,363 @@
+/* Algemeen */
+@import url("https://use.typekit.net/fio8yls.css");
+
+body {
+    margin: 0;
+    background-image: url("../Image/pattern3-50.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #A4303F;
+    height: 425px
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 20px;
+}
+
+header a {
+    padding: 5px;
+    background-color: #A4303F;
+    border: 2px solid #FFFCE9;
+    border-radius: 20px;
+    color: #FFFCE9;
+    font-family: "adobe-jenson-pro-display", serif;
+    font-size: larger;
+    text-decoration: none;
+    transition: all 250ms ease;
+}
+
+header a:hover {
+    background-color: #FFFCE9;
+    border-color: #FFFCE9;
+    color: #A4303F;
+}
+
+header a:focus {
+    border: 5px solid #FFFCE9;
+}
+
+header a:active {
+    font-weight: bold;
+}
+
+/* Tekst  algemeen */
+
+p,
+h1 {
+    color: #FFFCE9;
+}
+
+p {
+    font-family: "adobe-jenson-pro-display", serif;
+    font-size: larger;
+}
+
+h1,
+h2 {
+    font-family: "new-cordial", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+
+/* Intro algemeen */
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 20px;
+}
+
+.intro img {
+    width: 300px;
+    height: 254px;
+}
+
+.alinea1 {
+    width: 300px;
+    text-align: left;
+}
+
+
+/* Footer algemeen */
+
+footer {
+    padding: 2px;
+    background-color: #A4303F;
+    color: #FFFCE9;
+    text-align: center;
+    font-size: smaller;
+}
+
+
+/* manifest 1 */
+
+.alineaart {
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+.tussen1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    padding: 5px;
+    background-color: #FFFCE9;
+}
+
+.tussen1 h2 {
+    margin: 0;
+    color: #870058;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.alinea2 {
+    width: 400px;
+    padding: 20px;
+    background-color: #870058;
+    border-radius: 0 100em 100em 0;
+}
+
+.alinea2 p {
+    width: 350px;
+    margin: 0;
+    text-align: left;
+}
+
+/* Manifest 2 */
+
+.alineakunst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #C8D6AF;
+    border-radius: 100em;
+}
+
+.alineakunst h2,
+.alineakunst p {
+    color: #870058;
+}
+
+.alineakunst h2 {
+    text-align: left;
+}
+
+.alineakunst p {
+    width: 350px;
+    margin: 0;
+    text-align: left;
+}
+
+/* Manifest 3 */
+
+.alineadonatie {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.tussen3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    padding: 5px;
+    background-color: #FFFCE9;
+    color: #870058;
+    writing-mode: vertical-rl;
+}
+
+.alinea3 {
+    width: 450px;
+    padding: 20px;
+    background-color: #870058;
+    border-radius: 100em 0 0 100em;
+}
+
+.alinea3 p {
+    width: 350px;
+    margin: 0 0 0 auto;
+    text-align: left;
+}
+
+/* Eind */
+
+.eind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #C8D6AF;
+    border-radius: 100em;
+    text-align: center;
+}
+
+.eind h1 {
+    color: #870058;
+    text-align: center;
+}
+
+/* Uitleg */
+
+.uitleg section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    min-height: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.likes h2,
+.Reclame h2 {
+    text-align: center;
+    color: #870058;
+}
+
+.likes p,
+.Reclame p {
+    color: #870058;
+}
+
+.uitleg H2 {
+    text-align: center;
+}
+
+/* Likes */
+
+.uitleg section.likes {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.likes,
+.Reclame {
+    background-color: #C8D6AF;
+}
+
+.likes div {
+    flex: 1;
+    min-width: 0;
+}
+
+.likes h2,
+.likes p {
+    width: 100%;
+}
+
+.likes img {
+    height: 250px;
+    flex-shrink: 0;
+}
+
+/* AI */
+
+.AI {
+    background-color: #870058;
+    color: #FFFCE9;
+}
+
+.AI img {
+    width: 250px;
+}
+
+/* Bronnen */
+
+.bronnen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bronnen section {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: #870058;
+    text-align: left;
+}
+
+/* Bronnen tekst en link */
+
+.bronnen h2,
+.bronnen p,
+.bronnen h1 {
+    color: #870058;
+}
+
+.bronnen a {
+    text-decoration: none;
+}
+
+.bronnen h1 {
+    text-align: center;
+}
+
+/* Bronnen los */
+
+.leeswerk {
+    min-height: 1000px;
+    background-color: #C8D6AF;
+}
+
+.leeswerk h2,
+.leeswerk p,
+.leeswerk h1 {
+    color: #870058;
+}
+
+.leeswerk a {
+    color: #FFFCE9;
+}
+
+.gebruikt {
+    min-height: 800px;
+    background-color: #870058;
+}
+
+.gebruikt h2,
+.gebruikt p,
+.gebruikt h1 {
+    color: #FFFCE9;
+}
+
+.gebruikt a {
+    color: #C8D6AF;
+}
